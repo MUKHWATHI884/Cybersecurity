@@ -1,25 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Media;
-using Cybersecurity;
-
 
 namespace Cybersecurity
 {
-
-    public class Programming
+    public class Program
     {
         static void Main(string[] args)
         {
+            // Display logo
             Logo logo = new Logo();
             logo.ShowLogo();
 
-            SoundPlayer player = new System.Media.SoundPlayer();
-            player.Play();
+            // Play sound
+            try
+            {
+                SoundPlayer player = new SoundPlayer("welcome.wav");
+                player.Play();
+            }
+            catch
+            {
+                Console.WriteLine("Sound could not be played.");
+            }
 
-            Responspe response = new Response();
+            // Start chatbot
+            Response response = new Response();
             response.StartChat();
         }
     }
-
 }
