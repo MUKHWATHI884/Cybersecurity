@@ -1,0 +1,1 @@
+i created a cybersecurity project that focuses on enhancing security measures for web applications. The project includes various modules that address common vulnerabilities, implement best practices, and provide tools for developers to secure their applications effectively.
