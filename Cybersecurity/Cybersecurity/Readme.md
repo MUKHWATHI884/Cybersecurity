@@ -18,4 +18,3 @@ A comprehensive project focused on enhancing cybersecurity measures, understandi
 - Collaboration with cybersecurity experts and organizations for knowledge sharing.
 - Ai Sound Text to Speech
 - Created a logo using AI tools
-- 
